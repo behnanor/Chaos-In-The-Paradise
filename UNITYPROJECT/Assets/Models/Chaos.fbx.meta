@@ -1,0 +1,621 @@
+fileFormatVersion: 2
+guid: 164d4765c9012ee4f9b3593c5ebe7df1
+timeCreated: 1463315193
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm1.l
+    100002: arm1.r
+    100004: arm2.l
+    100006: arm2.r
+    100008: armature
+    100010: //RootNode
+    100012: Character
+    100014: foot.ik.l
+    100016: foot.ik.l_end
+    100018: foot.ik.r
+    100020: foot.ik.r_end
+    100022: foot.l
+    100024: foot.l_end
+    100026: foot.r
+    100028: footctrl.l
+    100030: footctrl.r
+    100032: footrollctrl.l
+    100034: footrollctrl.l_end
+    100036: footrollctrl.r
+    100038: footrollctrl.r_end
+    100040: hand.l
+    100042: hand.l_end
+    100044: hand.r
+    100046: hand.r_end
+    100048: head
+    100050: head_end
+    100052: hipsctrl
+    100054: kneectrl.r
+    100056: lowerleg.l
+    100058: lowerleg.r
+    100060: Plane
+    100062: root
+    100064: roottop
+    100066: throat
+    100068: toe.r
+    100070: toe.r_end
+    100072: toeroll.l
+    100074: toeroll.l_end
+    100076: toeroll.r
+    100078: upleg.l
+    100080: yarrak
+    100082: yarrak_end
+    100084: yarrrak2
+    400000: arm1.l
+    400002: arm1.r
+    400004: arm2.l
+    400006: arm2.r
+    400008: armature
+    400010: //RootNode
+    400012: Character
+    400014: foot.ik.l
+    400016: foot.ik.l_end
+    400018: foot.ik.r
+    400020: foot.ik.r_end
+    400022: foot.l
+    400024: foot.l_end
+    400026: foot.r
+    400028: footctrl.l
+    400030: footctrl.r
+    400032: footrollctrl.l
+    400034: footrollctrl.l_end
+    400036: footrollctrl.r
+    400038: footrollctrl.r_end
+    400040: hand.l
+    400042: hand.l_end
+    400044: hand.r
+    400046: hand.r_end
+    400048: head
+    400050: head_end
+    400052: hipsctrl
+    400054: kneectrl.r
+    400056: lowerleg.l
+    400058: lowerleg.r
+    400060: Plane
+    400062: root
+    400064: roottop
+    400066: throat
+    400068: toe.r
+    400070: toe.r_end
+    400072: toeroll.l
+    400074: toeroll.l_end
+    400076: toeroll.r
+    400078: upleg.l
+    400080: yarrak
+    400082: yarrak_end
+    400084: yarrrak2
+    2300000: Plane
+    3300000: Plane
+    4300000: Plane
+    4300002: Character
+    7400000: Run
+    7400002: Jump
+    7400004: armature|PlaneAction
+    7400006: Character|PlaneAction
+    7400008: Crouch
+    7400010: Die
+    9500000: //RootNode
+    13700000: Character
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Jump
+      takeName: armature|armatureAction.003
+      firstFrame: 300
+      lastFrame: 316
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: armature
+        weight: 1
+      - path: armature/footctrl.l
+        weight: 1
+      - path: armature/footctrl.l/foot.ik.l
+        weight: 1
+      - path: armature/footctrl.l/foot.ik.l/foot.ik.l_end
+        weight: 1
+      - path: armature/footctrl.l/footrollctrl.l
+        weight: 1
+      - path: armature/footctrl.l/footrollctrl.l/footrollctrl.l_end
+        weight: 1
+      - path: armature/footctrl.l/toeroll.l
+        weight: 1
+      - path: armature/footctrl.l/toeroll.l/toeroll.l_end
+        weight: 1
+      - path: armature/footctrl.l/yarrak
+        weight: 1
+      - path: armature/footctrl.l/yarrak/yarrak_end
+        weight: 1
+      - path: armature/hipsctrl
+        weight: 1
+      - path: armature/hipsctrl/kneectrl.r
+        weight: 1
+      - path: armature/hipsctrl/kneectrl.r/lowerleg.r
+        weight: 1
+      - path: armature/hipsctrl/kneectrl.r/lowerleg.r/foot.r
+        weight: 1
+      - path: armature/hipsctrl/kneectrl.r/lowerleg.r/foot.r/toe.r
+        weight: 1
+      - path: armature/hipsctrl/kneectrl.r/lowerleg.r/foot.r/toe.r/toe.r_end
+        weight: 1
+      - path: armature/hipsctrl/root
+        weight: 1
+      - path: armature/hipsctrl/root/arm1.l
+        weight: 1
+      - path: armature/hipsctrl/root/arm1.l/arm2.l
+        weight: 1
+      - path: armature/hipsctrl/root/arm1.l/arm2.l/hand.l
+        weight: 1
+      - path: armature/hipsctrl/root/arm1.l/arm2.l/hand.l/hand.l_end
+        weight: 1
+      - path: armature/hipsctrl/root/arm1.r
+        weight: 1
+      - path: armature/hipsctrl/root/arm1.r/arm2.r
+        weight: 1
+      - path: armature/hipsctrl/root/arm1.r/arm2.r/hand.r
+        weight: 1
+      - path: armature/hipsctrl/root/arm1.r/arm2.r/hand.r/hand.r_end
+        weight: 1
+      - path: armature/hipsctrl/root/roottop
+        weight: 1
+      - path: armature/hipsctrl/root/roottop/throat
+        weight: 1
+      - path: armature/hipsctrl/root/roottop/throat/head
+        weight: 1
+      - path: armature/hipsctrl/root/roottop/throat/head/head_end
+        weight: 1
+      - path: armature/hipsctrl/upleg.l
+        weight: 1
+      - path: armature/hipsctrl/upleg.l/lowerleg.l
+        weight: 1
+      - path: armature/hipsctrl/upleg.l/lowerleg.l/foot.l
+        weight: 1
+      - path: armature/hipsctrl/upleg.l/lowerleg.l/foot.l/foot.l_end
+        weight: 1
+      - path: armature/yarrrak2
+        weight: 1
+      - path: armature/yarrrak2/footctrl.r
+        weight: 1
+      - path: armature/yarrrak2/footctrl.r/footrollctrl.r
+        weight: 1
+      - path: armature/yarrrak2/footctrl.r/footrollctrl.r/footrollctrl.r_end
+        weight: 1
+      - path: armature/yarrrak2/footctrl.r/toeroll.r
+        weight: 1
+      - path: armature/yarrrak2/footctrl.r/toeroll.r/foot.ik.r
+        weight: 1
+      - path: armature/yarrrak2/footctrl.r/toeroll.r/foot.ik.r/foot.ik.r_end
+        weight: 1
+      - path: Character
+        weight: 1
+      - path: Plane
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run
+      takeName: armature|armatureAction.003
+      firstFrame: 251
+      lastFrame: 262
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: armature
+        weight: 1
+      - path: armature/footctrl.l
+        weight: 1
+      - path: armature/footctrl.l/foot.ik.l
+        weight: 1
+      - path: armature/footctrl.l/foot.ik.l/foot.ik.l_end
+        weight: 1
+      - path: armature/footctrl.l/footrollctrl.l
+        weight: 1
+      - path: armature/footctrl.l/footrollctrl.l/footrollctrl.l_end
+        weight: 1
+      - path: armature/footctrl.l/toeroll.l
+        weight: 1
+      - path: armature/footctrl.l/toeroll.l/toeroll.l_end
+        weight: 1
+      - path: armature/footctrl.l/yarrak
+        weight: 1
+      - path: armature/footctrl.l/yarrak/yarrak_end
+        weight: 1
+      - path: armature/hipsctrl
+        weight: 1
+      - path: armature/hipsctrl/kneectrl.r
+        weight: 1
+      - path: armature/hipsctrl/kneectrl.r/lowerleg.r
+        weight: 1
+      - path: armature/hipsctrl/kneectrl.r/lowerleg.r/foot.r
+        weight: 1
+      - path: armature/hipsctrl/kneectrl.r/lowerleg.r/foot.r/toe.r
+        weight: 1
+      - path: armature/hipsctrl/kneectrl.r/lowerleg.r/foot.r/toe.r/toe.r_end
+        weight: 1
+      - path: armature/hipsctrl/root
+        weight: 1
+      - path: armature/hipsctrl/root/arm1.l
+        weight: 1
+      - path: armature/hipsctrl/root/arm1.l/arm2.l
+        weight: 1
+      - path: armature/hipsctrl/root/arm1.l/arm2.l/hand.l
+        weight: 1
+      - path: armature/hipsctrl/root/arm1.l/arm2.l/hand.l/hand.l_end
+        weight: 1
+      - path: armature/hipsctrl/root/arm1.r
+        weight: 1
+      - path: armature/hipsctrl/root/arm1.r/arm2.r
+        weight: 1
+      - path: armature/hipsctrl/root/arm1.r/arm2.r/hand.r
+        weight: 1
+      - path: armature/hipsctrl/root/arm1.r/arm2.r/hand.r/hand.r_end
+        weight: 1
+      - path: armature/hipsctrl/root/roottop
+        weight: 1
+      - path: armature/hipsctrl/root/roottop/throat
+        weight: 1
+      - path: armature/hipsctrl/root/roottop/throat/head
+        weight: 1
+      - path: armature/hipsctrl/root/roottop/throat/head/head_end
+        weight: 1
+      - path: armature/hipsctrl/upleg.l
+        weight: 1
+      - path: armature/hipsctrl/upleg.l/lowerleg.l
+        weight: 1
+      - path: armature/hipsctrl/upleg.l/lowerleg.l/foot.l
+        weight: 1
+      - path: armature/hipsctrl/upleg.l/lowerleg.l/foot.l/foot.l_end
+        weight: 1
+      - path: armature/yarrrak2
+        weight: 1
+      - path: armature/yarrrak2/footctrl.r
+        weight: 1
+      - path: armature/yarrrak2/footctrl.r/footrollctrl.r
+        weight: 1
+      - path: armature/yarrrak2/footctrl.r/footrollctrl.r/footrollctrl.r_end
+        weight: 1
+      - path: armature/yarrrak2/footctrl.r/toeroll.r
+        weight: 1
+      - path: armature/yarrrak2/footctrl.r/toeroll.r/foot.ik.r
+        weight: 1
+      - path: armature/yarrrak2/footctrl.r/toeroll.r/foot.ik.r/foot.ik.r_end
+        weight: 1
+      - path: Character
+        weight: 1
+      - path: Plane
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Crouch
+      takeName: armature|armatureAction.003
+      firstFrame: 201
+      lastFrame: 213
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: armature
+        weight: 1
+      - path: armature/footctrl.l
+        weight: 1
+      - path: armature/footctrl.l/foot.ik.l
+        weight: 1
+      - path: armature/footctrl.l/foot.ik.l/foot.ik.l_end
+        weight: 1
+      - path: armature/footctrl.l/footrollctrl.l
+        weight: 1
+      - path: armature/footctrl.l/footrollctrl.l/footrollctrl.l_end
+        weight: 1
+      - path: armature/footctrl.l/toeroll.l
+        weight: 1
+      - path: armature/footctrl.l/toeroll.l/toeroll.l_end
+        weight: 1
+      - path: armature/footctrl.l/yarrak
+        weight: 1
+      - path: armature/footctrl.l/yarrak/yarrak_end
+        weight: 1
+      - path: armature/hipsctrl
+        weight: 1
+      - path: armature/hipsctrl/kneectrl.r
+        weight: 1
+      - path: armature/hipsctrl/kneectrl.r/lowerleg.r
+        weight: 1
+      - path: armature/hipsctrl/kneectrl.r/lowerleg.r/foot.r
+        weight: 1
+      - path: armature/hipsctrl/kneectrl.r/lowerleg.r/foot.r/toe.r
+        weight: 1
+      - path: armature/hipsctrl/kneectrl.r/lowerleg.r/foot.r/toe.r/toe.r_end
+        weight: 1
+      - path: armature/hipsctrl/root
+        weight: 1
+      - path: armature/hipsctrl/root/arm1.l
+        weight: 1
+      - path: armature/hipsctrl/root/arm1.l/arm2.l
+        weight: 1
+      - path: armature/hipsctrl/root/arm1.l/arm2.l/hand.l
+        weight: 1
+      - path: armature/hipsctrl/root/arm1.l/arm2.l/hand.l/hand.l_end
+        weight: 1
+      - path: armature/hipsctrl/root/arm1.r
+        weight: 1
+      - path: armature/hipsctrl/root/arm1.r/arm2.r
+        weight: 1
+      - path: armature/hipsctrl/root/arm1.r/arm2.r/hand.r
+        weight: 1
+      - path: armature/hipsctrl/root/arm1.r/arm2.r/hand.r/hand.r_end
+        weight: 1
+      - path: armature/hipsctrl/root/roottop
+        weight: 1
+      - path: armature/hipsctrl/root/roottop/throat
+        weight: 1
+      - path: armature/hipsctrl/root/roottop/throat/head
+        weight: 1
+      - path: armature/hipsctrl/root/roottop/throat/head/head_end
+        weight: 1
+      - path: armature/hipsctrl/upleg.l
+        weight: 1
+      - path: armature/hipsctrl/upleg.l/lowerleg.l
+        weight: 1
+      - path: armature/hipsctrl/upleg.l/lowerleg.l/foot.l
+        weight: 1
+      - path: armature/hipsctrl/upleg.l/lowerleg.l/foot.l/foot.l_end
+        weight: 1
+      - path: armature/yarrrak2
+        weight: 1
+      - path: armature/yarrrak2/footctrl.r
+        weight: 1
+      - path: armature/yarrrak2/footctrl.r/footrollctrl.r
+        weight: 1
+      - path: armature/yarrrak2/footctrl.r/footrollctrl.r/footrollctrl.r_end
+        weight: 1
+      - path: armature/yarrrak2/footctrl.r/toeroll.r
+        weight: 1
+      - path: armature/yarrrak2/footctrl.r/toeroll.r/foot.ik.r
+        weight: 1
+      - path: armature/yarrrak2/footctrl.r/toeroll.r/foot.ik.r/foot.ik.r_end
+        weight: 1
+      - path: Character
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Die
+      takeName: armature|armatureAction.003
+      firstFrame: 151
+      lastFrame: 165
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: armature
+        weight: 1
+      - path: armature/footctrl.l
+        weight: 1
+      - path: armature/footctrl.l/foot.ik.l
+        weight: 1
+      - path: armature/footctrl.l/foot.ik.l/foot.ik.l_end
+        weight: 1
+      - path: armature/footctrl.l/footrollctrl.l
+        weight: 1
+      - path: armature/footctrl.l/footrollctrl.l/footrollctrl.l_end
+        weight: 1
+      - path: armature/footctrl.l/toeroll.l
+        weight: 1
+      - path: armature/footctrl.l/toeroll.l/toeroll.l_end
+        weight: 1
+      - path: armature/footctrl.l/yarrak
+        weight: 1
+      - path: armature/footctrl.l/yarrak/yarrak_end
+        weight: 1
+      - path: armature/hipsctrl
+        weight: 1
+      - path: armature/hipsctrl/kneectrl.r
+        weight: 1
+      - path: armature/hipsctrl/kneectrl.r/lowerleg.r
+        weight: 1
+      - path: armature/hipsctrl/kneectrl.r/lowerleg.r/foot.r
+        weight: 1
+      - path: armature/hipsctrl/kneectrl.r/lowerleg.r/foot.r/toe.r
+        weight: 1
+      - path: armature/hipsctrl/kneectrl.r/lowerleg.r/foot.r/toe.r/toe.r_end
+        weight: 1
+      - path: armature/hipsctrl/root
+        weight: 1
+      - path: armature/hipsctrl/root/arm1.l
+        weight: 1
+      - path: armature/hipsctrl/root/arm1.l/arm2.l
+        weight: 1
+      - path: armature/hipsctrl/root/arm1.l/arm2.l/hand.l
+        weight: 1
+      - path: armature/hipsctrl/root/arm1.l/arm2.l/hand.l/hand.l_end
+        weight: 1
+      - path: armature/hipsctrl/root/arm1.r
+        weight: 1
+      - path: armature/hipsctrl/root/arm1.r/arm2.r
+        weight: 1
+      - path: armature/hipsctrl/root/arm1.r/arm2.r/hand.r
+        weight: 1
+      - path: armature/hipsctrl/root/arm1.r/arm2.r/hand.r/hand.r_end
+        weight: 1
+      - path: armature/hipsctrl/root/roottop
+        weight: 1
+      - path: armature/hipsctrl/root/roottop/throat
+        weight: 1
+      - path: armature/hipsctrl/root/roottop/throat/head
+        weight: 1
+      - path: armature/hipsctrl/root/roottop/throat/head/head_end
+        weight: 1
+      - path: armature/hipsctrl/upleg.l
+        weight: 1
+      - path: armature/hipsctrl/upleg.l/lowerleg.l
+        weight: 1
+      - path: armature/hipsctrl/upleg.l/lowerleg.l/foot.l
+        weight: 1
+      - path: armature/hipsctrl/upleg.l/lowerleg.l/foot.l/foot.l_end
+        weight: 1
+      - path: armature/yarrrak2
+        weight: 1
+      - path: armature/yarrrak2/footctrl.r
+        weight: 1
+      - path: armature/yarrrak2/footctrl.r/footrollctrl.r
+        weight: 1
+      - path: armature/yarrrak2/footctrl.r/footrollctrl.r/footrollctrl.r_end
+        weight: 1
+      - path: armature/yarrrak2/footctrl.r/toeroll.r
+        weight: 1
+      - path: armature/yarrrak2/footctrl.r/toeroll.r/foot.ik.r
+        weight: 1
+      - path: armature/yarrrak2/footctrl.r/toeroll.r/foot.ik.r/foot.ik.r_end
+        weight: 1
+      - path: Character
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.2
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
