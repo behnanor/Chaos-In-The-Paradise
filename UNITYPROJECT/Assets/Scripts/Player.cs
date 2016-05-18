@@ -56,13 +56,9 @@ public class Player : MonoBehaviour {
         }
         if (Input.GetMouseButtonDown(1))
         {
-            animator.SetBool("Die", true);
+          /*  animator.SetBool("Die", true);
             fRunCur = 0;
-            fRunMax = -1;
-            
-            
-
-
+            fRunMax = -1;*/
         }
     }
     void Jump()
