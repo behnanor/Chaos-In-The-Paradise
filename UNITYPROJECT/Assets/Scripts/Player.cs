@@ -57,18 +57,13 @@ public class Player : MonoBehaviour {
         if (Input.GetMouseButtonDown(1))
         {
             animator.SetBool("Die", true);
-            StartCoroutine(DieFalse());
+            fRunCur = 0;
+            fRunMax = -1;
+            
             
 
 
         }
-    }
-    IEnumerator DieFalse()
-    {
-        yield return new WaitForSeconds(1);
-        animator.SetBool("Die", false);
-
-
     }
     void Jump()
     {
